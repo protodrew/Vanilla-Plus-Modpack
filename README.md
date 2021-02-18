@@ -3,6 +3,10 @@
 
 The philosophy behind the design of this modpack was largely inspired by [This Video](https://www.youtube.com/watch?v=4KDybLytYtk), and improvements will be continuously made to ensure this pack includes a diverse selection of mods and tweaks.
 
+# Looking for Graphics Work (paid)
+
+contact me via one of [these options](https://protodrew.website) for more info
+
 ## Mod List
 - AntiGhost
 - Antique Atlas
@@ -146,6 +150,8 @@ The philosophy behind the design of this modpack was largely inspired by [This V
 - Creating a bespoke Loading Screen
 - Creating a bespoke Logo
 - Modifying Vanilla Hammers and Vanilla Excavators textures to display durability
+- Adding additional custom music
+- much much more
 
 ## How to install with ([MultiMc](https://multimc.org/))
 
