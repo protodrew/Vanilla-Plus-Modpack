@@ -2,7 +2,7 @@
 	// Mo' Structures feature toggles.
 	"features": { 
 		// Airplanes & Air Balloons
-		"air_features": true,
+		"air_features": false,
 		// Fallen Trees
 		"fallen_trees": true,
 		// Desert Features
@@ -44,13 +44,13 @@
 	// Structure toggles. These do not have chances, but in the future they may. 
 	"structures": { 
 		// Barnhouse
-		"barn_house": true,
+		"barn_house": false,
 		// Jungle Pyramid
 		"jungle_pyramid": true,
 		// Big Pyramid
 		"big_pyramid": true,
 		// The Castle In The Sky
-		"the_castle_in_the_sky": true,
+		"the_castle_in_the_sky": false,
 		// Villager Tower
 		"villager_tower": true,
 		// Abandoned Churches
@@ -58,7 +58,7 @@
 		// Villager Market
 		"villager_market": true,
 		// Pillager Factory
-		"pillager_factory": true
+		"pillager_factory": false
 	},
 	// Structure chances. Seperation is the least amount of chunks that a structure will spawn from itself. Spacing is the maximum amount of chunks, and both are used to randomly spawn structures and can be tweaked.
 	"structureChances": { 

@@ -1,435 +1,920 @@
-[15:51:31] [main/INFO]: Loading for game Minecraft 1.16.5
-[15:51:31] [ForkJoinPool-1-worker-9/WARN]: The mod "libcd" contains invalid entries in its mod json:
+[18:35:56] [main/INFO]: Loading for game Minecraft 1.16.5
+[18:35:56] [ForkJoinPool-1-worker-8/WARN]: The mod "libcd" contains invalid entries in its mod json:
 - Unsupported root entry "licence" at line 9 column 12
-[15:51:31] [ForkJoinPool-1-worker-9/WARN]: The mod "harvest" contains invalid entries in its mod json:
-- Unsupported root entry "links" at line 7 column 10
-[15:51:31] [ForkJoinPool-1-worker-4/WARN]: The mod "autoconfig1u" contains invalid entries in its mod json:
+[18:35:56] [ForkJoinPool-1-worker-2/WARN]: The mod "autoconfig1u" contains invalid entries in its mod json:
 - Unsupported root entry "$schema" at line 2 column 14
-[15:51:31] [main/WARN]: Warnings were found! 
+[18:35:56] [ForkJoinPool-1-worker-2/WARN]: The mod "harvest" contains invalid entries in its mod json:
+- Unsupported root entry "links" at line 7 column 10
+[18:35:56] [ForkJoinPool-1-worker-3/WARN]: The mod "autoconfig1u" contains invalid entries in its mod json:
+- Unsupported root entry "$schema" at line 2 column 14
+[18:35:56] [main/WARN]: Warnings were found! 
+ - Mod 'Crafting Pad' (craftingpad) recommends version 1.1.7 or later of mod modupdater, which is missing!
+	 - You must install version 1.1.7 or later of modupdater.
  - Mod 'AntiGhost' (antighost) recommends version 1.1.7 or later of mod modupdater, which is missing!
 	 - You must install version 1.1.7 or later of modupdater.
-[15:51:31] [main/WARN]: Mod `{}` ({}) uses 'requires' key in fabric.mod.json, which is not supported - use 'depends'
-[15:51:31] [main/INFO]: [FabricLoader] Loading 110 mods: fabric-keybindings-v0@0.2.1+ca58154a7d, couplings@1.3.3, dynamicsoundfilters@1.2.0+1.16.5, fabricloader@0.11.1, crowdin-translate@1.2, fabric-dimensions-v1@2.0.6+9354966b7d, java@8, kibe@1.6.3-BETA, cotton-client-commands@1.0.1+1.16-rc1, fabric-game-rule-api-v1@1.0.6+ca58154a7d, fabric-api-base@0.2.1+9354966b7d, jumploader@2.1.2, diggusmaximus@1.4.2-1.16.3, fiber@0.23.0-2, lambdynlights@1.3.4+1.16, randompatches@2.4.2-fabric, org_jetbrains_kotlin_kotlin-stdlib@1.4.21, playerabilitylib@1.2.1, fabric-blockrenderlayer-v1@1.1.5+ca58154a7d, terraform-wood-api-v1@1.0.0+build.4, org_jetbrains_kotlin_kotlin-stdlib-jdk7@1.4.21, fabric@0.30.3+1.16, respawnablepets@1.16.5-1, fabric-networking-v0@0.3.2+ca58154a7d, fabric-screen-handler-api-v1@1.1.5+9354966b7d, repurposed_structures@1.16.5-1.8.1, modmenu@1.16.7, phosphor@0.7.1+build.11, org_jetbrains_kotlin_kotlin-stdlib-jdk8@1.4.21, fabric-tool-attribute-api-v1@1.2.6+ca58154a7d, terraform-tree-api-v1@1.0.1+build.4, angerable-patch@1.1.0-1.16.4, bebooks@1.2.4, voyager@1.0.0, fabric-crash-report-info-v1@0.1.3+ca58154a7d, fabric-events-interaction-v0@0.4.2+ca58154a7d, mostructures@1.0.1+mc.1.16.4, fabric-language-kotlin@1.4.21+build.1, mousewheelie@1.6.3+mc1.16.4, fabric-key-binding-api-v1@1.0.4+9354966b7d, cloth-config2@4.8.3, org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.4.2, fabric-resource-loader-v0@0.4.2+ca58154a7d, org_jetbrains_kotlin_kotlin-reflect@1.4.21, antighost@1.16.5-fabric0.30.0-1.1.3, libblockattributes_fluids@0.8.5, staticdata@1.1.2, magna@1.4.2-1.16.2, fabric-commands-v0@0.2.2+ca58154a7d, fabric-registry-sync-v0@0.7.4+ca58154a7d, fabric-mining-levels-v0@0.1.3+ca58154a7d, fabric-networking-api-v1@1.0.1+ca58154a7d, fallingtree@2.10.1, fabric-item-groups-v0@0.2.3+ca58154a7d, fabric-models-v0@0.2.1+ca58154a7d, org_jetbrains_annotations@20.0.0, terraform-shapes-api-v1@1.0.0+build.4, fabric-renderer-api-v1@0.4.1+ca58154a7d, libcd@3.0.3+1.16.3, mambience@3.0.0+1.16.5, flesh2leather@1.0.2, vanilla-hammers@3.0.1-1.16.3, vanillaexcavators@1.1.0, fabric-structure-api-v1@1.1.4+ca58154a7d, org_aperlambda_lambdajcommon@1.8.1, fabric-containers-v0@0.1.11+9354966b7d, lithium@0.6.3, fabric-object-builder-api-v1@1.9.4+9354966b7d, fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d, fabric-textures-v0@1.0.6+ca58154a7d, com_electronwill_night-config_core@3.6.3, fabric-rendering-fluids-v1@0.1.13+ca58154a7d, fabric-lifecycle-events-v1@1.2.1+ca58154a7d, ecotones@0.7.1, sodium@0.1.0, fabric-renderer-registries-v1@2.2.1+ca58154a7d, fabric-loot-tables-v1@1.0.2+ca58154a7d, fabric-particles-v1@0.2.4+ca58154a7d, autoconfigtoml@1.0.0-fabric, libblockattributes_core@0.8.5, antiqueatlas@5.4.4-fabric, terraform-biome-builder-api-v1@1.0.0+build.4, fabric-networking-blockentity-v0@0.2.8+ca58154a7d, minecraft@1.16.5, okzoomer@4.0.1+1.16.2, fabric-command-api-v1@1.0.10+ca58154a7d, cloth-basic-math@0.5.1, static-content@1.0.1-1.16.2, amecsapi@1.1.1+mc1.16-rc1, fabric-screen-api-v1@1.0.0+c045166c7d, fabric-renderer-indigo@0.4.4+ca58154a7d, org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.4.2, com_electronwill_night-config_toml@3.6.3, dark-loading-screen@1.6.3, fabric-item-api-v1@1.2.1+ca58154a7d, kyrptconfig@1.1.4-1.16, fabric-entity-events-v1@1.0.3+ca58154a7d, fabric-rendering-v0@1.1.2+ca58154a7d, fabric-rendering-v1@1.5.1+ca58154a7d, spruceui@2.0.4+1.16, autoconfig1u@3.3.1, harvest@1.2.12, fabric-content-registries-v0@0.2.1+ca58154a7d, fabric-tag-extensions-v0@1.1.1+ca58154a7d, blue_endless_jankson@1.2.0, fabric-biome-api-v1@3.1.1+ca58154a7d, damagetilt@1.16-fabric-0.1.2, fabric-events-lifecycle-v0@0.2.1+ca58154a7d, fabric-object-builders-v0@0.7.2+ca58154a7d, tweed@3.0.0-beta.22
-[15:51:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/protodrew/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.8.2+build.24/sponge-mixin-0.8.2+build.24.jar Service=Knot/Fabric Env=CLIENT
-[15:51:32] [main/INFO]: Loaded configuration file for Sodium (38 options available, 0 user overrides)
-[15:51:32] [main/INFO]: Sodium has been successfully discovered and initialized -- your game is now faster!
-[15:51:32] [main/INFO]: Loaded configuration file for Lithium: 76 options available, 0 override(s) found
-[15:51:32] [main/WARN]: Reference map 'static-content-refmap.json' for static-content.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:51:32] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
-[15:51:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:51:38] [main/INFO]: Setting user: queerfrog
-[15:51:39] [main/INFO]: Silk not found, not loading compatibility for fluids.
-[15:51:39] [main/INFO]: RebornCore not found, not loading compatibility for fluids. (reborncore.common.blockentity.MachineBaseBlockEntity)
-[15:51:39] [main/WARN]: Replaced the attribute alexiil.mc.lib.attributes.fluid.GroupedFluidInvView value for minecraft:glass_bottle with alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@680410ec (was alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@65b4a0d2)
-[15:51:39] [main/WARN]: Replaced the attribute alexiil.mc.lib.attributes.fluid.GroupedFluidInv value for minecraft:glass_bottle with alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@147058d0 (was alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@63dd100c)
-[15:51:39] [main/WARN]: Replaced the attribute alexiil.mc.lib.attributes.fluid.FluidInsertable value for minecraft:glass_bottle with alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@2b16efeb (was alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@6be4686b)
-[15:51:39] [main/WARN]: Replaced the attribute alexiil.mc.lib.attributes.fluid.FluidExtractable value for minecraft:glass_bottle with alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@7d440b1f (was alexiil.mc.lib.attributes.fluid.FluidContainerRegistry$StateEmpty$$Lambda$2426/2042245811@769229cb)
-[15:51:40] [main/INFO]: [STDOUT]: diggusmaximus Config not found! Creating one.
-[15:51:40] [main/INFO]: [STDOUT]: diggusmaximus Failed to load config! Overwriting with default config.
-[15:51:40] [main/INFO]: [STDOUT]: diggusmaximus Config not found! Creating one.
-[15:51:40] [main/INFO]: [STDOUT]: diggusmaximus Failed to load config! Overwriting with default config.
-[15:51:40] [main/INFO]: [STDOUT]: diggusmaximus Config not found! Creating one.
-[15:51:40] [main/INFO]: [STDOUT]: diggusmaximus Failed to load config! Overwriting with default config.
-[15:51:41] [main/ERROR]: "kibe:cursed_dirt" is missing a footstep type entry - suggested: "grass"
-[15:51:41] [main/ERROR]: "kibe:redstone_timer" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:iron_spikes" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:diamond_spikes" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:regular_conveyor_belt" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:fast_conveyor_belt" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:express_conveyor_belt" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:entangled_tank" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:entangled_chest" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:trash_can" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:vacuum_hopper" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:big_torch" is missing a footstep type entry - suggested: "planks"
-[15:51:41] [main/ERROR]: "kibe:cooler" is missing a footstep type entry - suggested: "snow"
-[15:51:41] [main/ERROR]: "kibe:drawbridge" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:light_source" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:chunk_loader" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:tank" is missing a footstep type entry - suggested: "glass"
-[15:51:41] [main/ERROR]: "kibe:xp_shower" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:xp_drain" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:fluid_hopper" is missing a footstep type entry - suggested: "hardmetal"
-[15:51:41] [main/ERROR]: "kibe:white_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:orange_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:magenta_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:light_blue_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:yellow_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:lime_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:pink_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:gray_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:light_gray_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:cyan_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:blue_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:purple_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:green_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:brown_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:red_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:black_elevator" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/ERROR]: "kibe:liquid_xp" is missing a footstep type entry - suggested: "stone"
-[15:51:41] [main/INFO]: Flesh 2 Leather setup complete!
-[15:51:41] [main/INFO]: Loaded 14 Static Content files for vanilla-hammers:hammers
-[15:51:41] [main/INFO]: [ecotones] Registering 159 ecotones biomes!
-[15:51:41] [main/INFO]: [STDOUT]: net.minecraft.class_2248
-[15:51:42] [main/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[15:51:42] [main/INFO]: [LambDynLights] Configuration loaded.
-[15:51:42] [main/WARN]: WARNING! Mod crowdin-translate is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod cotton-client-commands is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
-[15:51:42] [main/WARN]: WARNING! Mod cotton-client-commands is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod fiber is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod playerabilitylib is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod terraform-wood-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod terraform-tree-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod fabric-language-kotlin is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod mousewheelie is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
-[15:51:42] [main/WARN]: WARNING! Mod cloth-config2 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod libblockattributes_fluids is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod libblockattributes_fluids is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod staticdata is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod magna is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod terraform-shapes-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod libcd is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod autoconfigtoml is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod libblockattributes_core is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod libblockattributes_core is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod terraform-biome-builder-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod cloth-basic-math is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod kyrptconfig is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod spruceui is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod autoconfig1u is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/WARN]: WARNING! Mod tweed is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:plains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:desert
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:swamp
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:river
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:frozen_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:frozen_river
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:snowy_tundra
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:beach
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:desert_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:wooded_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:mountain_edge
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:dark_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:wooded_mountains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:small_end_islands
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:end_midlands
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:end_highlands
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:end_barrens
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:warm_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:lukewarm_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:cold_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_warm_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_lukewarm_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_cold_ocean
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:the_void
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:desert_lakes
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:gravelly_mountains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:taiga_mountains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:swamp_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_jungle
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:dark_forest_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_gravelly_mountains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_wooded_badlands_plateau
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_badlands_plateau
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:bamboo_jungle
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome minecraft:bamboo_jungle_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:desert
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:desert_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:desert_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:scrubland
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:scrubland_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:scrubland_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:steppe
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:steppe_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:steppe_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_grassland
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_grassland_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_grassland_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_savanna
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_savanna_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_savanna_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_rainforest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_rainforest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_rainforest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_desert
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_desert_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_desert_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_scrubland
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_scrubland_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_scrubland_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_steppe
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_steppe_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_steppe_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:prairie
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:prairie_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:prairie_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lichen_woodland
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lichen_woodland_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lichen_woodland_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_rainforest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_rainforest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_rainforest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:swamp
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_beach
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_beach
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:gravel_beach
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:river
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:volcanic_biome
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:supervolcanic_biome
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:hot_springs
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:blessed_springs
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:oasis
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:the_pits
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:the_pits_edge
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:green_spires
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:uluru
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_flats
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_shrub
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_depths
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove_hilly_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:pine_peaks
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:flower_prairie
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:flower_prairie_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:flower_prairie_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_clearing_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_fields
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_flats
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_shrubs
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_flats
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_shrubs
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_oak
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_birch
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_grassland
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_grassland_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_grassland_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:birch_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:birch_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:birch_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:flooded_savanna
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:palm_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:palm_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:palm_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:moor
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:moor_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:moor_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_foothills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_foothills_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_hills
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_mountains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_desert
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_desert_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_desert_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_steppe
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_steppe_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_steppe_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_flats
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_clearing
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:mangrove_swamp
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:sparse_forest
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:sparse_forest_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:sparse_forest_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:shield_taiga
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:shield_taiga_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:shield_taiga_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dark_oak_thicket
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dark_oak_thicket_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:dark_oak_thicket_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:sunflower_plains
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:sunflower_plains_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:sunflower_plains_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:savanna_mesa
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:savanna_mesa_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:savanna_mesa_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa_plateau
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa_hilly
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa_mountainous
-[15:51:42] [main/INFO]: Auto-registered standard texture set for biome ecotones:rose_field
-[15:51:43] [main/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[15:51:43] [main/INFO]: Reloaded configs for mousewheelie (universal/highest)
-[15:51:43] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
-[15:51:45] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on magna.mixins.json:WorldRendererMixin::localvar$zce000$appendBlockBreakingProgressions exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[15:51:46] [main/INFO]: Narrator library successfully loaded
-[15:51:46] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Key Bindings (v0), Couplings, Dynamic Sound Filters, Fabric Loader, Kibe, Fabric Game Rule API (v1), Fabric API Base, Jumploader, Diggus Maximus, LambDynamicLights, RandomPatches, Pal, Fabric BlockRenderLayer Registration (v1), Terraform Wood API (v1), Fabric API, Respawnable Pets, Fabric Networking (v0), Fabric Screen Handler API (v1), Repurposed Structures, Mod Menu, Phosphor, Fabric Tool Attribute API (v1), Terraform Tree API (v1), Better Enchanted Books, Fabric Crash Report Info (v1), Fabric Events Interaction (v0), Mo' Structures, Fabric Language Kotlin, Mouse Wheelie, Fabric Key Binding API (v1), Cloth Config v4, Fabric Resource Loader (v0), AntiGhost, LibBlockAttributes (Fluids), Static Data, Magna, Fabric Commands (v0), Fabric Registry Sync (v0), Fabric Mining Levels (v0), Fabric Networking API (v1), FallingTree, Fabric Item Groups (v0), Fabric Models (v0), Terraform Shapes API (v1), Fabric Renderer API (v1), LibCapableData, MAmbience, Flesh2Leather, Vanilla Hammers, Vanilla Excavators, Fabric Structure API (v1), Fabric Containers (v0), Lithium, Fabric Object Builder API (v1), Fabric Rendering Data Attachment (v1), Fabric Textures (v0), Fabric Rendering Fluids (v1), Fabric Lifecycle Events (v1), Ecotones, Sodium, Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric Particles (v1), AutoConfig-TOML, LibBlockAttributes (Core), Antique Atlas, Terraform Biome Builder API (v1), Fabric Networking Block Entity (v0), Ok Zoomer, Fabric Command API (v1), Amecs API, Fabric Screen API (v1), Fabric Renderer - Indigo, Dark Loading Screen, Fabric Item API (v1), Fabric Entity Events (v1), Fabric Rendering (v0), Fabric Rendering (v1), SpruceUI, Auto Config v1 Updated, Harvest, Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Biome API (v1), Damage Tilt, Fabric Events Lifecycle (v0), Fabric Object Builders (v0), Tweed API), VanillaTweaks_r201906.zip
-[15:51:46] [main/INFO]: [STDOUT]: Inject generated resource packs.
-[15:51:50] [Worker-Main-11/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/kelp.json' in resourcepack: 'VanillaTweaks_r201906.zip' for variant: 'normal': Unknown blockstate property: 'normal'
-[15:51:52] [Worker-Main-11/WARN]: Unable to resolve texture reference: #missing in minecraft:item/soul_lantern
-[15:51:52] [Worker-Main-11/WARN]: Unable to resolve texture reference: #missing in minecraft:item/lantern
-[15:51:54] [main/INFO]: OpenAL initialized.
-[15:51:54] [main/INFO]: Sound engine started
-[15:51:55] [main/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[15:51:55] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[15:51:55] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15:51:55] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15:51:55] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15:51:55] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15:51:55] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15:51:56] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15:51:56] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15:51:56] [main/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15:51:56] [main/INFO]: Reloaded configs for mousewheelie (client/smallest)
-[15:52:09] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15:52:09] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15:52:09] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15:52:09] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15:52:09] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15:52:09] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Kibe, Respawnable Pets, Repurposed Structures, Fabric Tool Attribute API (v1), Mo' Structures, LibCapableData, Flesh2Leather, Vanilla Hammers, Vanilla Excavators, Ecotones, Antique Atlas, Harvest)
-[15:52:10] [main/INFO]: Loaded 8 recipes
-[15:52:10] [main/INFO]: Loaded 1038 advancements
-[15:52:10] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
-[15:52:10] [main/INFO]: Applied 2705 biome modifications to 238 of 238 new biomes in 236.7 ms
-[15:52:10] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[15:52:11] [main/INFO]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/class_1297;)V
-[15:52:11] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
-[15:52:11] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 0
-[15:52:11] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
-[15:52:11] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 1
-[15:52:11] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
-[15:52:11] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 2
-[15:52:11] [main/INFO]:       BeforeConstant found TypeInsn       [INSTANCEOF]
-[15:52:11] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
-[15:52:11] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 3
-[15:52:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:52:11] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
-[15:52:11] [Server thread/INFO]: Generating keypair
-[15:52:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:52:13] [main/INFO]: Preparing spawn area: 0%
-[15:52:13] [main/INFO]: Preparing spawn area: 0%
-[15:52:13] [main/INFO]: Preparing spawn area: 93%
-[15:52:14] [main/INFO]: Time elapsed: 1219 ms
-[15:52:14] [Server thread/INFO]: Reloaded configs for mousewheelie (universal/world)
-[15:52:14] [Server thread/INFO]: Changing view distance to 19, from 10
-[15:52:14] [Server thread/INFO]: queerfrog[local:E:3ca14413] logged in with entity id 152 at (144.5, 64.0, 348.5)
-[15:52:14] [Server thread/INFO]: queerfrog joined the game
-[15:52:14] [Server thread/INFO]: Sent markers data #-1 to player queerfrog
-[15:52:14] [Server thread/INFO]: Sent custom biome data to player queerfrog
-[15:52:14] [Server thread/INFO]: Sent custom biome data to player queerfrog
-[15:52:14] [Server thread/INFO]: Sent custom biome data to player queerfrog
-[15:52:14] [Server thread/INFO]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
-[15:52:15] [Server thread/INFO]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (13 tiles)
-[15:52:15] [Server thread/INFO]: Sent Atlas #-437951482 data to player queerfrog
-[15:52:15] [Server thread/INFO]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
-[15:52:15] [Server thread/INFO]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (13 tiles)
-[15:52:15] [Server thread/INFO]: Sent Atlas #1 data to player queerfrog
-[15:52:15] [Server thread/INFO]: Sent markers data #1 to player queerfrog
-[15:52:15] [main/INFO]: Started 12 worker threads
-[15:52:15] [Server thread/INFO]: Saving and pausing game...
-[15:52:15] [main/INFO]: Requested config sync for mousewheelie
-[15:52:15] [main/WARN]: Unknown recipe category: kibe:vacuum_hopper/kibe:liquid_xp_bucket
-[15:52:15] [main/WARN]: Unknown recipe category: kibe:vacuum_hopper/kibe:experience_bottle
-[15:52:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:52:15] [Server thread/INFO]: Saving local markers data to NBT
-[15:52:15] [Server thread/INFO]: Saving local markers data to NBT
-[15:52:15] [main/INFO]: Loaded 431 advancements
-[15:52:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:52:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:52:31] [main/INFO]: Stopping worker threads
-[15:52:31] [main/INFO]: Started 12 worker threads
-[15:52:31] [main/INFO]: Stopping worker threads
-[15:52:31] [main/INFO]: Started 12 worker threads
-[15:52:31] [Server thread/INFO]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:the_nether]
-[15:52:31] [Server thread/INFO]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:the_nether] (4 tiles)
-[15:52:31] [Server thread/INFO]: Sent Atlas #1 data to player queerfrog
-[15:52:33] [main/WARN]: Received passengers for unknown entity
-[15:52:35] [main/WARN]: Received passengers for unknown entity
-[15:53:04] [main/WARN]: Received passengers for unknown entity
-[15:53:09] [main/WARN]: Received passengers for unknown entity
-[15:53:10] [main/WARN]: Received passengers for unknown entity
-[15:53:37] [main/WARN]: Received passengers for unknown entity
-[15:53:41] [main/WARN]: Received passengers for unknown entity
-[15:53:41] [main/WARN]: Received passengers for unknown entity
-[15:53:42] [main/WARN]: Unable to play empty soundEvent: minecraft:block.roots.step
-[15:53:47] [main/INFO]: Loaded 431 advancements
-[15:54:33] [Server thread/INFO]: queerfrog has made the advancement [Who is Cutting Onions?]
-[15:54:33] [main/INFO]: [CHAT] queerfrog has made the advancement [Who is Cutting Onions?]
-[15:54:33] [main/INFO]: Loaded 432 advancements
-[15:55:34] [main/WARN]: Received passengers for unknown entity
-[15:55:37] [main/WARN]: Received passengers for unknown entity
-[15:55:40] [main/INFO]: Loaded 434 advancements
-[15:55:52] [main/INFO]: Loaded 434 advancements
-[15:55:53] [main/INFO]: Loaded 437 advancements
-[15:56:11] [main/INFO]: Loaded 438 advancements
-[15:56:32] [main/INFO]: Loaded 443 advancements
-[15:56:47] [main/INFO]: Stopping worker threads
-[15:56:47] [main/INFO]: Started 12 worker threads
-[15:56:47] [main/INFO]: Stopping worker threads
-[15:56:47] [Server thread/INFO]: Saving and pausing game...
-[15:56:47] [main/INFO]: Started 12 worker threads
-[15:56:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:56:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:56:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:56:59] [main/WARN]: Unable to play unknown soundEvent: mambience:wood.floorsqueak
-[15:58:50] [Server thread/INFO]: Saving and pausing game...
-[15:58:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:58:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:58:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:59:23] [Server thread/INFO]: Saving and pausing game...
-[15:59:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:59:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:59:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:59:24] [Server thread/INFO]: queerfrog lost connection: Disconnected
-[15:59:24] [Server thread/INFO]: queerfrog left the game
-[15:59:24] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[15:59:24] [Server thread/INFO]: Stopping server
-[15:59:24] [Server thread/INFO]: Saving players
-[15:59:24] [Server thread/INFO]: Saving worlds
-[15:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[15:59:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:59:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:59:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:59:25] [main/INFO]: Stopping worker threads
-[15:59:26] [main/INFO]: Stopping!
+[18:35:56] [main/WARN]: Mod `{}` ({}) uses 'requires' key in fabric.mod.json, which is not supported - use 'depends'
+[18:35:56] [main/INFO]: [FabricLoader] Loading 143 mods: flamingo_ooo@1.0.4-MC1.16.3-fabric, fabric-keybindings-v0@0.2.1+ca58154a7d, roughlyenoughitems-api@5.10.181, couplings@1.3.3, dynamicsoundfilters@1.2.0+1.16.5, fabricloader@0.11.1, crowdin-translate@1.2, mobs_attempt_parkour@0.2.2-1.16.5, fabric-dimensions-v1@2.0.6+9354966b7d, java@8, cotton-client-commands@1.0.1+1.16-rc1, fabric-game-rule-api-v1@1.0.6+ca58154a7d, craftingpad@1.16.5-fabric0.30.0-1.0.5, fabric-api-base@0.2.1+9354966b7d, eldritch_mobs@1.6.8, jumploader@2.1.2, diggusmaximus@1.4.2-1.16.3, fiber@0.23.0-2, lambdynlights@1.3.4+1.16, roughlyenoughresources@2.1.3, randompatches@2.4.2-fabric, org_jetbrains_kotlin_kotlin-stdlib@1.4.21, com_moandjiezana_toml_toml4j@0.7.2, playerabilitylib@1.2.1, fabric-blockrenderlayer-v1@1.1.5+ca58154a7d, borderlessmining@1.0.6+1.16.2, simple_backpack@1.0.38, terraform-wood-api-v1@1.0.0+build.4, org_jetbrains_kotlin_kotlin-stdlib-jdk7@1.4.21, respawnablepets@1.16.5-1, fabric@0.30.3+1.16, fabric-networking-v0@0.3.2+ca58154a7d, pling@1.3.0, fabric-screen-handler-api-v1@1.1.5+9354966b7d, cleancut@mc1.16-2.1-fabric, lapisreserve@1.0.6, repurposed_structures@1.16.5-1.8.1, modmenu@1.16.7, gentlefawn@1.1.2-MC1.16.3-fabric, phosphor@0.7.1+build.11, org_jetbrains_kotlin_kotlin-stdlib-jdk8@1.4.21, fabric-tool-attribute-api-v1@1.2.6+ca58154a7d, roughlyenoughitems-runtime@5.10.181, terraform-tree-api-v1@1.0.1+build.4, angerable-patch@1.1.0-1.16.4, cloth-client-events-v0@1.5.47, bebooks@1.2.4, voyager@1.0.0, fabric-crash-report-info-v1@0.1.3+ca58154a7d, fabric-events-interaction-v0@0.4.2+ca58154a7d, mostructures@1.0.1+mc.1.16.4, fabric-language-kotlin@1.4.21+build.1, fabric-key-binding-api-v1@1.0.4+9354966b7d, mousewheelie@1.6.3+mc1.16.4, cloth-config2@4.10.13, disable_custom_worlds_advice@1.2, org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.4.2, fabric-resource-loader-v0@0.4.2+ca58154a7d, seamless_loading_screen@1.3.1, chunkpregen@0.3.3, org_jetbrains_kotlin_kotlin-reflect@1.4.21, antighost@1.16.5-fabric0.30.0-1.1.3, cardinal-components-entity@2.7.4, staticdata@1.1.2, magna@1.4.2-1.16.2, fabric-commands-v0@0.2.2+ca58154a7d, fabric-registry-sync-v0@0.7.4+ca58154a7d, cherishedworlds@1.3.0-1.16.4, cardinal-components-base@2.7.4, fabric-mining-levels-v0@0.1.3+ca58154a7d, fabric-networking-api-v1@1.0.1+ca58154a7d, fallingtree@2.10.1, fabric-item-groups-v0@0.2.3+ca58154a7d, fabric-models-v0@0.2.1+ca58154a7d, reroll@1.2.0-1.16.5, org_jetbrains_annotations@20.0.0, terraform-shapes-api-v1@1.0.0+build.4, fabric-renderer-api-v1@0.4.1+ca58154a7d, savemystronghold@1.16.4-1.0, flesh2leather@1.0.2, libcd@3.0.3+1.16.3, mambience@3.0.0+1.16.5, vanilla-hammers@3.0.1-1.16.3, vanillaexcavators@1.1.0, fabric-structure-api-v1@1.1.4+ca58154a7d, org_aperlambda_lambdajcommon@1.8.1, maelstrom_library@1.0-1.16.5, flonters@1.1.1+1.16.2, fabric-containers-v0@0.1.11+9354966b7d, lithium@0.6.3, fabric-object-builder-api-v1@1.9.4+9354966b7d, harvest_scythes@1.0.9, fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d, fabric-textures-v0@1.0.6+ca58154a7d, com_electronwill_night-config_core@3.6.3, fabric-rendering-fluids-v1@0.1.13+ca58154a7d, simplexterrain@0.7.2, fabric-lifecycle-events-v1@1.2.1+ca58154a7d, ecotones@0.7.1, sodium@0.1.0, cardinal-components-chunk@2.7.4, fabric-renderer-registries-v1@2.2.1+ca58154a7d, fabric-loot-tables-v1@1.0.2+ca58154a7d, dynamicfps@2.0.1, fabric-particles-v1@0.2.4+ca58154a7d, autoconfigtoml@1.0.0-fabric, antiqueatlas@5.4.4-fabric, terraform-biome-builder-api-v1@1.0.0+build.4, fabric-networking-blockentity-v0@0.2.8+ca58154a7d, roughlyenoughitems-default-plugin@5.10.181, minecraft@1.16.5, okzoomer@4.0.1+1.16.2, fabric-command-api-v1@1.0.10+ca58154a7d, cloth-basic-math@0.5.1, static-content@1.0.1-1.16.2, amecsapi@1.1.1+mc1.16-rc1, fabric-screen-api-v1@1.0.0+c045166c7d, fabric-renderer-indigo@0.4.4+ca58154a7d, org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.4.2, com_electronwill_night-config_toml@3.6.3, dark-loading-screen@1.6.3, fabric-item-api-v1@1.2.1+ca58154a7d, roughlyenoughitems@5.10.181, kyrptconfig@1.1.4-1.16, fabric-entity-events-v1@1.0.3+ca58154a7d, fabric-rendering-v0@1.1.2+ca58154a7d, fabric-rendering-v1@1.5.1+ca58154a7d, spruceui@2.0.4+1.16, smoothscrollingeverywhere@3.0.3-unstable, autoconfig1u@3.3.1, harvest@1.2.12, fabric-content-registries-v0@0.2.1+ca58154a7d, fabric-tag-extensions-v0@1.1.1+ca58154a7d, blue_endless_jankson@1.2.0, fabric-biome-api-v1@3.1.1+ca58154a7d, itemmodelfix@1.0.0, damagetilt@1.16-fabric-0.1.2, betterf3@1.1.2, zoob@3.0.0, fabric-events-lifecycle-v0@0.2.1+ca58154a7d, libstructure@1.3, fabric-object-builders-v0@0.7.2+ca58154a7d, tweed@3.0.0-beta.22
+[18:35:56] [main/WARN]: Mod `cleancut` (mc1.16-2.1-fabric) does not respect SemVer - comparison support is limited.
+[18:35:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/protodrew/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.8.2+build.24/sponge-mixin-0.8.2+build.24.jar Service=Knot/Fabric Env=CLIENT
+[18:35:56] [main/INFO]: Loaded configuration file for Sodium (38 options available, 0 user overrides)
+[18:35:56] [main/INFO]: Sodium has been successfully discovered and initialized -- your game is now faster!
+[18:35:56] [main/INFO]: Loaded configuration file for Lithium: 76 options available, 0 override(s) found
+[18:35:56] [main/WARN]: Reference map 'static-content-refmap.json' for static-content.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:35:57] [main/WARN]: @Mixin target net.fabricmc.fabric.api.client.screen.v1.ScreenEvents is public in seamless_loading_screen.mixins.json:mod_compat.fapi_0_30_0.ScreenEventsMixin and should be specified in value
+[18:35:57] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[18:35:57] [main/WARN]: Error loading class: net/minecraft/class_5284$class_5307 (java.lang.ClassNotFoundException: net/minecraft/class_5284$class_5307)
+[18:35:57] [main/WARN]: @Mixin target net.minecraft.class_5284$class_5307 was not found libstructure.mixins.json:ChunkGeneratorTypePresetMixin
+[18:36:02] [main/ERROR]: Entity gentlefawn:deer has no attributes
+[18:36:02] [main/ERROR]: Entity flamingo_ooo:flamingo has no attributes
+[18:36:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:36:03] [main/INFO]: Setting user: queerfrog
+[18:36:04] [main/INFO]: [RER] Hello Fabric world!
+[18:36:05] [main/INFO]: Flesh 2 Leather setup complete!
+[18:36:05] [main/ERROR]: "eldritch_mobs:soothing_lantern" is missing a footstep type entry - suggested: "hardmetal"
+[18:36:05] [main/ERROR]: "gentlefawn:doe_head" is missing a footstep type entry - suggested: "stone"
+[18:36:05] [main/ERROR]: "gentlefawn:doe_wall_head" is missing a footstep type entry - suggested: "stone"
+[18:36:05] [main/ERROR]: "gentlefawn:buck_head" is missing a footstep type entry - suggested: "stone"
+[18:36:05] [main/ERROR]: "gentlefawn:buck_wall_head" is missing a footstep type entry - suggested: "stone"
+[18:36:05] [main/INFO]: Loaded 14 Static Content files for vanilla-hammers:hammers
+[18:36:05] [main/INFO]: Loaded configuration file "/home/protodrew/.local/share/multimc/instances/Vanilla+/.minecraft/config/flonters.properties"
+[18:36:05] [main/INFO]: Loading [Harvest Scythes]
+[18:36:05] [main/INFO]: Loaded 0 items from 0 compatible mods, for a total of 6 items.
+[18:36:05] [main/INFO]: [Harvest Scythes] has successfully been loaded!
+[18:36:05] [main/INFO]: [ecotones] Registering 159 ecotones biomes!
+[18:36:06] [main/INFO]: [STDOUT]: net.minecraft.class_2248
+[18:36:06] [main/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[18:36:06] [main/INFO]: [LambDynLights] Configuration loaded.
+[18:36:06] [main/WARN]: WARNING! Mod roughlyenoughitems-api is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod crowdin-translate is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cotton-client-commands is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[18:36:06] [main/WARN]: WARNING! Mod cotton-client-commands is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod fiber is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod playerabilitylib is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod terraform-wood-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod roughlyenoughitems-runtime is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod terraform-tree-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[18:36:06] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod fabric-language-kotlin is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod mousewheelie is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[18:36:06] [main/WARN]: WARNING! Mod cloth-config2 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cardinal-components-entity is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cardinal-components-entity is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod staticdata is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod magna is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cardinal-components-base is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cardinal-components-base is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod terraform-shapes-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod libcd is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cardinal-components-chunk is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cardinal-components-chunk is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod autoconfigtoml is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod terraform-biome-builder-api-v1 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod roughlyenoughitems-default-plugin is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod cloth-basic-math is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod kyrptconfig is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod spruceui is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod smoothscrollingeverywhere is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[18:36:06] [main/WARN]: WARNING! Mod autoconfig1u is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod betterf3 is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[18:36:06] [main/WARN]: WARNING! Mod libstructure is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/WARN]: WARNING! Mod tweed is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[18:36:06] [main/INFO]: Config loaded.
+[18:36:06] [main/ERROR]: [0;33mSeamless Loading Screen[0m[31m: Couldn't load config; reverting to defaults
+[18:36:06] [main/INFO]: [0;33mSeamless Loading Screen[0m: Saving config.
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:plains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:desert
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:swamp
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:river
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:frozen_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:frozen_river
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:snowy_tundra
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:beach
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:desert_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:wooded_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:mountain_edge
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:dark_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:wooded_mountains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:small_end_islands
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:end_midlands
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:end_highlands
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:end_barrens
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:warm_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:lukewarm_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:cold_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_warm_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_lukewarm_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:deep_cold_ocean
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:the_void
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:desert_lakes
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:gravelly_mountains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:taiga_mountains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:swamp_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_jungle
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:dark_forest_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_gravelly_mountains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_wooded_badlands_plateau
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:modified_badlands_plateau
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:bamboo_jungle
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome minecraft:bamboo_jungle_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:desert
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:desert_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:desert_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:scrubland
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:scrubland_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:scrubland_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:steppe
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:steppe_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:steppe_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_grassland
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_grassland_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_grassland_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_savanna
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_savanna_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_savanna_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_rainforest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_rainforest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_rainforest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_desert
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_desert_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_desert_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_scrubland
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_scrubland_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_scrubland_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_steppe
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_steppe_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:cool_steppe_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:prairie
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:prairie_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:prairie_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lichen_woodland
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lichen_woodland_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lichen_woodland_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_rainforest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_rainforest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_rainforest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:swamp
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:tropical_beach
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_beach
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:gravel_beach
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:river
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:volcanic_biome
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:supervolcanic_biome
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:hot_springs
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:blessed_springs
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:oasis
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:the_pits
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:the_pits_edge
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:green_spires
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:uluru
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_flats
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_shrub
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:wasteland_depths
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:hazel_grove_hilly_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:pine_peaks
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:flower_prairie
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:flower_prairie_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:flower_prairie_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:woodland_clearing_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_fields
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_flats
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:clover_shrubs
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_flats
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_shrubs
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_oak
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:poplar_forest_birch
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_grassland
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_grassland_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:temperate_grassland_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:birch_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:birch_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:birch_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:flooded_savanna
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dead_spruce_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:palm_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:palm_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:palm_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:moor
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:moor_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:moor_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_foothills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_foothills_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_hills
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:aspen_mountains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_desert
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_desert_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:lush_desert_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_steppe
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_steppe_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_steppe_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dry_savanna_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:fertile_valley_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_flats
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_clearing
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:bluebell_wood_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:spruce_marsh_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:mangrove_swamp
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:sparse_forest
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:sparse_forest_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:sparse_forest_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:shield_taiga
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:shield_taiga_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:shield_taiga_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dark_oak_thicket
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dark_oak_thicket_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:dark_oak_thicket_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:sunflower_plains
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:sunflower_plains_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:sunflower_plains_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:savanna_mesa
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:savanna_mesa_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:savanna_mesa_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa_plateau
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa_hilly
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:white_mesa_mountainous
+[18:36:07] [main/INFO]: Auto-registered standard texture set for biome ecotones:rose_field
+[18:36:07] [main/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[18:36:07] [main/INFO]: [BetterF3] Loading...
+[18:36:07] [main/INFO]: [BetterF3] All done!
+[18:36:07] [main/INFO]: Reloaded configs for mousewheelie (universal/highest)
+[18:36:07] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[18:36:09] [main/WARN]: @ModifyVariable(@At("INVOKE")) Shift.BY=2 on magna.mixins.json:WorldRendererMixin::localvar$zbk000$appendBlockBreakingProgressions exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:36:09] [main/INFO]: Narrator library successfully loaded
+[18:36:09] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Flamingo, oh, oh, oh..., Fabric Key Bindings (v0), Couplings, Dynamic Sound Filters, Fabric Loader, Mobs Attempt Parkour, Fabric Game Rule API (v1), Crafting Pad, Fabric API Base, Eldritch Mobs, Jumploader, Diggus Maximus, LambDynamicLights, Roughly Enough Resources, RandomPatches, Pal, Fabric BlockRenderLayer Registration (v1), Borderless Mining, SimpleBackpack, Terraform Wood API (v1), Respawnable Pets, Fabric API, Fabric Networking (v0), Pling, Fabric Screen Handler API (v1), CleanCut, Repurposed Structures, Mod Menu, GentleFawn, Phosphor, Fabric Tool Attribute API (v1), REI (Runtime), Terraform Tree API (v1), Better Enchanted Books, Fabric Crash Report Info (v1), Fabric Events Interaction (v0), Mo' Structures, Fabric Language Kotlin, Fabric Key Binding API (v1), Mouse Wheelie, Cloth Config v4, Disable Custom Worlds Advice, Fabric Resource Loader (v0), Seamless Loading Screen, AntiGhost, Static Data, Magna, Fabric Commands (v0), Fabric Registry Sync (v0), Cherished Worlds, Fabric Mining Levels (v0), Fabric Networking API (v1), FallingTree, Fabric Item Groups (v0), Fabric Models (v0), Reroll, Terraform Shapes API (v1), Fabric Renderer API (v1), Flesh2Leather, LibCapableData, MAmbience, Vanilla Hammers, Vanilla Excavators, Fabric Structure API (v1), Maelstrom Library, Flonters, Fabric Containers (v0), Lithium, Fabric Object Builder API (v1), Harvest Scythes, Fabric Rendering Data Attachment (v1), Fabric Textures (v0), Fabric Rendering Fluids (v1), Simplex Terrain, Fabric Lifecycle Events (v1), Ecotones, Sodium, Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Dynamic FPS, Fabric Particles (v1), AutoConfig-TOML, Antique Atlas, Terraform Biome Builder API (v1), Fabric Networking Block Entity (v0), Ok Zoomer, Fabric Command API (v1), Amecs API, Fabric Screen API (v1), Fabric Renderer - Indigo, Dark Loading Screen, Fabric Item API (v1), Roughly Enough Items, Fabric Entity Events (v1), Fabric Rendering (v0), Fabric Rendering (v1), SpruceUI, Smooth Scrolling Everywhere, Auto Config v1 Updated, Harvest, Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Biome API (v1), Item Model Fix, Damage Tilt, BetterF3, Monster Of The Ocean Depths, Fabric Events Lifecycle (v0), Fabric Object Builders (v0), Tweed API), VanillaTweaks_r201906.zip
+[18:36:09] [main/INFO]: [STDOUT]: Inject generated resource packs.
+[18:36:13] [Worker-Main-13/WARN]: Exception loading blockstate definition: 'minecraft:blockstates/kelp.json' in resourcepack: 'VanillaTweaks_r201906.zip' for variant: 'normal': Unknown blockstate property: 'normal'
+[18:36:15] [Worker-Main-13/WARN]: Unable to resolve texture reference: #missing in minecraft:item/soul_lantern
+[18:36:15] [Worker-Main-13/WARN]: Unable to resolve texture reference: #missing in minecraft:item/lantern
+[18:36:17] [main/INFO]: OpenAL initialized.
+[18:36:17] [main/INFO]: Sound engine started
+[18:36:17] [main/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[18:36:18] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[18:36:18] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18:36:18] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18:36:18] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18:36:18] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18:36:18] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18:36:19] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18:36:19] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18:36:19] [main/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:36:19] [main/INFO]: Reloaded configs for mousewheelie (client/smallest)
+[18:36:24] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:36:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:36:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:36:24] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:36:24] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:36:24] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Flamingo, oh, oh, oh..., Crafting Pad, Eldritch Mobs, SimpleBackpack, Respawnable Pets, Repurposed Structures, GentleFawn, Fabric Tool Attribute API (v1), Mo' Structures, Flesh2Leather, LibCapableData, Vanilla Hammers, Vanilla Excavators, Flonters, Harvest Scythes, Ecotones, Antique Atlas, Harvest, Monster Of The Ocean Depths)
+[18:36:25] [main/ERROR]: Couldn't load item tag c:very_rare_loot as it is missing following references: gobber2:gobber2_ingot_end (from SimpleBackpack),gobber2:gobber2_ring_teleport (from SimpleBackpack),gobber2:gobber2_ring_ascent (from SimpleBackpack),gobber2:gobber2_ring_swiftness (from SimpleBackpack)
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:ender_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:ender_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:obsidian_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:obsidian_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:lapis_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:lapis_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:fiery_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:fiery_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:prismarine_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:prismarine_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:slime_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:slime_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:quartz_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:quartz_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe vanilla-excavators:emerald_excavator
+com.google.gson.JsonSyntaxException: Unknown item 'vanillaexcavators:emerald_excavator'
+	at net.minecraft.class_1869.method_17878(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1869.method_8155(class_1869.java:233) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/ERROR]: Parsing error loading recipe harvest_scythes:cincinnasite_scythe_diamond
+com.google.gson.JsonSyntaxException: Unknown item 'harvest_scythes:cincinnasite_scythe'
+	at net.minecraft.class_1856.method_17873(class_1856.java:165) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.class_1856.method_8107(class_1856.java:165) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:147) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869.method_8157(class_1869.java:225) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869.method_8159(class_1869.java:24) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:246) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:123) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:54) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18857(class_1255.java:127) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29604(class_310.java:1958) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29610(class_310.java:1808) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_29606(class_310.java:1748) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20174(class_528.java:407) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_20164(class_528.java:317) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_528$class_4272.method_25402(class_528.java:254) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_350.method_25402(class_350.java:345) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4069.method_25402(class_4069.java:27) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1611(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_437.method_25412(class_437.java:435) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_1601(class_312.java:92) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22686(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.execute(class_1255.java:94) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_312.method_22684(class_312.java:162) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) [lwjgl-glfw-3.2.2.jar:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) [lwjgl-glfw-3.2.2.jar:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:127) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1071) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:25] [main/INFO]: Loaded 7 recipes
+[18:36:26] [main/INFO]: Loaded 1031 advancements
+[18:36:26] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
+[18:36:26] [main/INFO]: Applied 2173 biome modifications to 234 of 238 new biomes in 206.0 ms
+[18:36:26] [main/WARN]: kibe:cursed_effect missing from registry, but requested!
+[18:36:26] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[18:36:26] [main/INFO]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/class_1297;)V
+[18:36:26] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
+[18:36:26] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 0
+[18:36:26] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
+[18:36:26] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 1
+[18:36:26] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
+[18:36:26] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 2
+[18:36:26] [main/INFO]:       BeforeConstant found TypeInsn       [INSTANCEOF]
+[18:36:26] [main/INFO]:   BeforeConstant found CLASS constant: value = Lnet/minecraft/class_1309;, typeValue = Lnet/minecraft/class_1309;
+[18:36:26] [main/INFO]:     BeforeConstant found a matching constant value at ordinal 3
+[18:36:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:36:27] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[18:36:27] [Server thread/INFO]: Generating keypair
+[18:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:36:29] [main/INFO]: Preparing spawn area: 0%
+[18:36:29] [main/INFO]: Preparing spawn area: 0%
+[18:36:29] [main/INFO]: Preparing spawn area: 0%
+[18:36:29] [main/INFO]: Preparing spawn area: 0%
+[18:36:30] [main/INFO]: Preparing spawn area: 84%
+[18:36:30] [main/INFO]: Time elapsed: 2250 ms
+[18:36:30] [Server thread/INFO]: Reloaded configs for mousewheelie (universal/world)
+[18:36:30] [Server thread/INFO]: Changing view distance to 19, from 10
+[18:36:31] [Server thread/INFO]: queerfrog[local:E:672b0e06] logged in with entity id 212 at (-54.5, 66.0, 124.5)
+[18:36:31] [Server thread/INFO]: queerfrog joined the game
+[18:36:31] [Server thread/INFO]: [STDOUT]: sending loot to queerfrog
+[18:36:31] [Server thread/INFO]: Sent markers data #-1 to player queerfrog
+[18:36:31] [Server thread/INFO]: Sent custom biome data to player queerfrog
+[18:36:31] [Server thread/INFO]: Sent custom biome data to player queerfrog
+[18:36:31] [Server thread/INFO]: Sent custom biome data to player queerfrog
+[18:36:31] [Server thread/INFO]: Sending dimension #ResourceKey[minecraft:dimension / minecraft:overworld]
+[18:36:31] [Server thread/INFO]: Sent dimension #ResourceKey[minecraft:dimension / minecraft:overworld] (6 tiles)
+[18:36:31] [Server thread/INFO]: Sent Atlas #-437951482 data to player queerfrog
+[18:36:31] [main/INFO]: Started 12 worker threads
+[18:36:31] [main/INFO]: Requested config sync for mousewheelie
+[18:36:31] [Server thread/INFO]: Saving and pausing game...
+[18:36:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:overworld
+[18:36:31] [Server thread/INFO]: Saving local markers data to NBT
+[18:36:31] [REI-SyncRecipes/INFO]: Reloading REI, registered 3 plugins: roughlyenoughitems:default_runtime_plugin, roughlyenoughresources:rer_plugin, roughlyenoughitems:default_plugin
+[18:36:31] [REI-SyncRecipes/INFO]: Applied Check Tags for potion in 34ms.
+[18:36:31] [REI-SyncRecipes/INFO]: Reloaded 1352 stack entries, 4945 recipes displays, 3 exclusion zones suppliers, 5 overlay deciders, 1 visibility handlers and 21 categories (Crafting, Smelting, Smoking, Blasting, Campfire, Stone Cutting, Fuel, Brewing, Composting, Stripping, Smithing, Beacon Base, Beacon Payment, Tilling, Pathing, Information, Overworld Generation, The Nether Generation, The End Generation, Block Loot Drop, Entity Loot Drop) in 178ms.
+[18:36:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:the_nether
+[18:36:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:the_end
+[18:36:31] [main/INFO]: Loaded 15 advancements
+[18:36:43] [Server thread/INFO]: Saving and pausing game...
+[18:36:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:overworld
+[18:36:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:the_nether
+[18:36:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:the_end
+[18:36:45] [main/WARN]: Warning! Mod angerable-patch has a broken icon, loading default icon
+[18:36:46] [main/WARN]: Warning! Mod eldritch_mobs has a broken icon, loading default icon
+[18:36:46] [main/ERROR]: Invalid mod icon for icon source chunkpregen: assets/modid/icon.png
+java.nio.file.NoSuchFileException: assets/modid/icon.png
+	at com.sun.nio.zipfs.ZipFileSystem.newInputStream(ZipFileSystem.java:557) ~[zipfs.jar:1.8.0_282]
+	at com.sun.nio.zipfs.ZipPath.newInputStream(ZipPath.java:645) ~[zipfs.jar:1.8.0_282]
+	at com.sun.nio.zipfs.ZipFileSystemProvider.newInputStream(ZipFileSystemProvider.java:278) ~[zipfs.jar:1.8.0_282]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_282]
+	at com.terraformersmc.modmenu.util.mod.ModIconHandler.createIcon(ModIconHandler.java:33) [modmenu-1.16.7.jar:?]
+	at com.terraformersmc.modmenu.util.mod.fabric.FabricMod.getIcon(FabricMod.java:166) [modmenu-1.16.7.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.entries.ModListEntry.bindIconTexture(ModListEntry.java:95) [modmenu-1.16.7.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.entries.ModListEntry.method_25343(ModListEntry.java:51) [modmenu-1.16.7.jar:?]
+	at com.terraformersmc.modmenu.gui.widget.ModListWidget.method_25311(ModListWidget.java:225) [modmenu-1.16.7.jar:?]
+	at net.minecraft.class_350.method_25394(class_350.java:206) [intermediary-minecraft-1.16.5-client.jar:?]
+	at com.terraformersmc.modmenu.gui.ModsScreen.method_25394(ModsScreen.java:274) [modmenu-1.16.7.jar:?]
+	at net.minecraft.class_757.method_3192(class_757.java:616) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1048) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:226) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:139) [fabric-loader-0.11.1.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:27) [fabric-loader-0.11.1.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[18:36:46] [main/WARN]: Warning! Mod chunkpregen has a broken icon, loading default icon
+[18:36:46] [main/WARN]: Warning! Mod lapisreserve has a broken icon, loading default icon
+[18:36:46] [main/WARN]: Warning! Mod pling has a broken icon, loading default icon
+[18:36:47] [main/WARN]: Warning! Mod static-content has a broken icon, loading default icon
+[18:36:47] [main/WARN]: Warning! Mod voyager has a broken icon, loading default icon
+[18:36:50] [Server thread/INFO]: queerfrog lost connection: Disconnected
+[18:36:50] [Server thread/INFO]: queerfrog left the game
+[18:36:50] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[18:36:50] [Server thread/INFO]: Stopping server
+[18:36:50] [Server thread/INFO]: Saving players
+[18:36:50] [Server thread/INFO]: Saving worlds
+[18:36:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:overworld
+[18:36:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Testworld 2): All chunks are saved
+[18:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:the_nether
+[18:36:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Testworld 2]'/minecraft:the_end
+[18:36:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:36:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (Testworld 2): All chunks are saved
+[18:36:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:36:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:36:51] [main/INFO]: Stopping worker threads
+[18:36:52] [main/INFO]: Stopping!
