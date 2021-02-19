@@ -11,30 +11,55 @@ contact me via one of [these options](https://protodrew.website) for more info
 - AntiGhost
 - Antique Atlas
 - Better Enchanted Books
+- Better F3
+- Borderless Mining
+- Cherished Worlds
+- CleanCut
+- Cloth Config v4
 - Couplings
+- Crafting Pad
 - Damage Tilt
 - Dark Loading Screen
 - Diggus Maximus
+- Disable Custom Worlds Advice
 - Dynamic Sound Filters
 - Ecotones
+- Eldritch Mobs
 - Fabric Api
+- Fabric Trunk Pregenerator
 - Fabric Language Kotlin
 - FallingTree
+- Flamingo
 - Flesh2Leather
+- Flonters
+- GentleFawn
 - Harvest
+- Harvest Scythes
+- Item Model Fix
 - Jumploader
-- Kibe
 - LambDynamicLights
+- Lapis Reserve
 - Lithium
 - MAmbience
 - Mo' Structures
+- Mobs Attempt Parkour
 - Mod Menu
+- Monster of the Ocean Depths
 - Mouse Wheelie
 - Ok Zoomer
 - Phosphor
+- Pling
 - Random Patches
 - Repurposed Structures
+- Reroll
 - Respawnable Pets
+- Roughly Enough Items (will be removed once 1.0 is out)
+- Roughly Enough Resources (will be removed once 1.0 is out)
+- Save My Stronghold!
+- Seamless Loading Screen
+- SimpleBackpack
+- Simplex Terrain
+- Smooth Scrolling Everywhere
 - Sodium
 - Vanilla Excavators
 - Vanilla Hammers
@@ -146,7 +171,6 @@ contact me via one of [these options](https://protodrew.website) for more info
 - Tweaking crafting recipes
 - Creating a bespoke food/crops mod
 - Adding simplex terrain and modifying to better fit the pack
-- Removing some lore unfriendly kibe recipes
 - Creating a bespoke Loading Screen
 - Creating a bespoke Logo
 - Modifying Vanilla Hammers and Vanilla Excavators textures to display durability

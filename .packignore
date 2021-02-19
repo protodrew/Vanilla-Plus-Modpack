@@ -1,6 +1,6 @@
 .git
 .gitignore
 .minecraft/crash-reports
-.minecraft/saves/New World
+.minecraft/saves
 LICENSE.md
 README.md
