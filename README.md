@@ -167,7 +167,7 @@ contact me via one of [these options](https://protodrew.website) for more info
 - Age25Kelp
 - DiminishingTools
 
-##Planned Features
+## Planned Features
 - Tweaking crafting recipes
 - Creating a bespoke food/crops mod
 - Adding simplex terrain and modifying to better fit the pack
